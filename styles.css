@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    background-color: #EEEEEE;
 }
 
 .meny {
@@ -60,6 +61,7 @@ a {
     overflow: hidden;
 }
 
+
 #ost {
     font-size: .75em;
     font-weight: 300;
@@ -86,4 +88,36 @@ a {
 
 .icon {
     width: 50%;
+}
+
+.article-img {
+    width: 100%;
+}
+
+article {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.intro-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-25 {
+    width: 25%;
 }
