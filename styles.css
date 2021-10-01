@@ -1,4 +1,32 @@
-h1 {
-    text-align: center;
-    letter-spacing: 0.1em;
+body {
+    margin: 0;
+}
+
+.meny {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #464646;
+}
+
+.nav-right {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-button {
+    /* border: none; */
+    height: 100%;
+}
+
+h2 {
+    color: #FFFFFA;
+}
+
+a {
+    text-decoration: none;
 }
