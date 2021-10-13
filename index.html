@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="styles.css" />
-        <meta charset="UTF8" />
+        <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Oskar Olsen - Home</title>
@@ -12,63 +12,69 @@
         <nav class="meny">
             <div class="nav-left">
                 <a href="index.html">
-                    <h2>Oskar Olsen</h2>
+                    <h2 class="nav-text">Oskar Olsen</h2>
                 </a>
             </div>
 
             <div class="nav-right">
                 <a href="about.html">
-                    <button class="nav-button">About</button>
+                    <h3 class="nav-text">About</h3>
                 </a>
                 <a href="portfolio.html">
-                    <button class="nav-button">Portfolio</button>
+                    <h3 class="nav-text">Portfolio</h3>
                 </a>
                 <a href="resume.html">
-                    <button class="nav-button">Resume</button>
+                    <h3 class="nav-text">Resume</h3>
                 </a>
             </div>
         </nav>
 
-        <div class="picture" id="box1,5">
-            <img src = images/oskar.jpg>
-        </div>
-        
-        <div class="om meg" id="box2">
-          
-        <p> Hi! My name is Oskar, and i am a third-year student at OsloMet studying applied computer science. 
-            As the end of school is approaching i am looking for a new workplace to put my bachelors degree to use.
-            Feel free to click through my pages and get to know me and what i have to offer for your firm! 
-        </p>
-        <p> Now, who am i? Besides my enthusiasm for web-development and design, i also keep myself busy with numerous hobbies: </p>
-        
-        <ul> My top three`s! 
-            <li>Beer-brewing</li>
-            <li>FPV drone-piloting</li>
-            <li>Airsoft</li>
-        </ul>
-        
-        <p>I really hope you enjoy navigating this digital platform, and i´d love to hear from you!
-             <q>ost er godt</q>
-        </p>
-        </div>
-        
-        <div class="bunn" id="box3">
-        <footer>
-         For a look into my personal life and my casual appearance, you can visit my social media here!
-         
-         <a href = "https://www.instagram.com/oskar_olsen">
-         <img src = images/instagram.png>
-        </a>
-        
-        <a href = "https://www.facebook.com/profile.php?id=100012413148071">
-         <img src = images/facebook.png>
-         </a>
-        
-        <a href = "https://www.tiktok.com/@oskarolsen4?" >
-         <img src = images/tiktok.png>
-         </a>
-        
-        </footer>
-        </div>
+        <main class="content">
+
+            <div class="title-container">
+                <div class="title-left">
+                    <img src="images/oskar1.jpg" alt="avatar" class="avatar">
+                </div>
+                <header class="title-right">
+
+                    <h1 class="center-text">Oskar Olsen<br><q id="ost">Ost er godt</q></h1>
+                </header>
+            </div>
+
+            <div class="text-container">
+                <p>
+                    Hi! My name is Oskar, and i am a third-year student at OsloMet studying applied computer science. 
+                    As the end of school is approaching i am looking for a new workplace to put my bachelors degree to use.
+                    Feel free to click through my pages and get to know me and what i have to offer for your firm!
+                </p>
+                <div class="hobbies-container">
+                    <p>
+                        Besides my enthusiasm for web-development and design, i also keep myself busy with numerous hobbies:
+                    </p>
+                    <ul>
+                        <li>Beer-brewing</li>
+                        <li>FPV drone-piloting</li>
+                        <li>Airsoft</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="SoMe-container">
+                <p>I really hope you enjoy navigating this digital platform, and i´d love to hear from you!</p>
+                <div class="SoMe-links-container">
+                    <a class="SoMe-link" href="https://www.instagram.com/oskar_olsen">
+                        <img alt="instagram" class="icon" src="images/instagram.png">
+                    </a>
+                    
+                    <a class="SoMe-link" href="https://www.facebook.com/profile.php?id=100012413148071">
+                        <img alt="facebook" class="icon" src="images/facebook.png">
+                    </a>
+                    
+                    <a class="SoMe-link" href="https://www.tiktok.com/@oskarolsen4?" >
+                        <img alt="tiktok" class="icon" src="images/tiktok.png">
+                    </a>
+                </div>
+            </div>
+        </main>
     </body>
 </html>

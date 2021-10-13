@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="styles.css" />
-        <meta charset="UTF8"/>
+        <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Oskar Olsen - About</title>
@@ -11,44 +11,63 @@
         <nav class="meny">
             <div class="nav-left">
                 <a href="index.html">
-                    <h2>Oskar Olsen</h2>
+                    <h2 class="nav-text">Oskar Olsen</h2>
                 </a>
             </div>
 
             <div class="nav-right">
-                <a href="about.html">
-                    <button class="nav-button">About</button>
+                <a href="index.html">
+                    <h3 class="nav-text">Home</h3>
                 </a>
                 <a href="portfolio.html">
-                    <button class="nav-button">Portfolio</button>
+                    <h3 class="nav-text">Portfolio</h3>
                 </a>
                 <a href="resume.html">
-                    <button class="nav-button">Resume</button>
+                    <h3 class="nav-text">Resume</h3>
                 </a>
             </div>
         </nav>
 
-        <div class="picture" id="box1,5">
-            <img src = images/carlos.jpeg>
-            <p>Her er bildet</p>
-        </div>
+        <div class="content">
+            <p>
         
-        <div class="om meg" id="box2">
+                Before starting out programming the website, we sat down and discussed how we wanted the layout to appear.
+                After playing around with ideas we ended up with a sketch containing different semantic elements that we wanted
+                to implement in our page.
+                <br>
+                <br>        
+                the first and most obvious semantic tag to apply was the "nav". this contains the part of the website used to navigate around
+                the different pages. 
+                <br> 
+                <br>      
+                At the bottom of the page we have a footer, the footer remains constant on all pages and contains link to social medias.
+                <br>
+                <br>
+                it also made sense to use the main-tag for the main contents of the page, the same goes for using the header-tag on the header.
+                <br>  
+                <br>      
+                the quote-tag was used to let browser and screen-readers know that oskar´s famous quote is an actual quote.
+                <br>
+                <br>
+                we used the article tag to separate the different parts in our portfolio page to make it easier to navigate when coding.
+            </p>
 
-        <p> Her står hjemmesidetekst </p>
-        <li> Her er en liste over mine hobbyer 
-            <ul>Fotball</ul>
-            <ul>snowboard</ul>
-            <ul>airsoft</ul>
-        </li>
-        
-        <p>jeg lever etter mottoet <q>ost er godt</q> fordi jeg syns det er fornuftig.</p>
-        </div>
-        
-        <div class="bunn" id="box3">
-        <footer>
-            Hook up with me here: 
-        </footer>
+            <footer class="SoMe-container">
+                <p>I really hope you enjoy navigating this digital platform, and i´d love to hear from you!</p>
+                <div class="SoMe-links-container">
+                    <a class="SoMe-link" href="https://www.instagram.com/oskar_olsen">
+                        <img alt="instagram" class="icon" src="images/instagram.png">
+                    </a>
+                    
+                    <a class="SoMe-link" href="https://www.facebook.com/profile.php?id=100012413148071">
+                        <img alt="facebook" class="icon" src="images/facebook.png">
+                    </a>
+                    
+                    <a class="SoMe-link" href="https://www.tiktok.com/@oskarolsen4?" >
+                        <img alt="tiktok" class="icon" src="images/tiktok.png">
+                    </a>
+                </div>
+            </footer>
         </div>
     </body>
 </html>
